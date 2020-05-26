@@ -36,5 +36,14 @@ public class TareasController {
 		
 	}
 	
+	@GetMapping({"/form"})
+	public String form(Model m) {
+		
+		m.addAttribute("mensaje", "Segunda Página");
+		
+		return "tareas/form";
+		
+	}
+	
 	
 }

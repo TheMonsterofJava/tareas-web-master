@@ -44,10 +44,11 @@
 			<li class="nav-item dropdown"><a
 				class="nav-link dropdown-toggle" id="userDropdown" href="#"
 				role="button" data-toggle="dropdown" aria-haspopup="true"
-				aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+				aria-expanded="false"> <i class="fas fa-user fa-fw"></i>
+			</a>
 				<div class="dropdown-menu dropdown-menu-right"
 					aria-labelledby="userDropdown">
-					<a class="dropdown-item" href="#">Settings</a><a
+					<a class="dropdown-item" href="#">Settings</a> <a
 						class="dropdown-item" href="#">Activity Log</a>
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="login.html">Logout</a>
@@ -61,42 +62,47 @@
 				<div class="sb-sidenav-menu">
 					<div class="nav">
 						<div class="sb-sidenav-menu-heading">Core</div>
-						<a class="nav-link" href="index.html"><div
-								class="sb-nav-link-icon">
+						<a class="nav-link" href="index.html">
+							<div class="sb-nav-link-icon">
 								<i class="fas fa-tachometer-alt"></i>
-							</div> Dashboard</a>
+							</div> Dashboard
+						</a>
 						<div class="sb-sidenav-menu-heading">Interface</div>
 						<a class="nav-link collapsed" href="#" data-toggle="collapse"
 							data-target="#collapseLayouts" aria-expanded="false"
-							aria-controls="collapseLayouts"><div class="sb-nav-link-icon">
+							aria-controls="collapseLayouts">
+							<div class="sb-nav-link-icon">
 								<i class="fas fa-columns"></i>
 							</div> Layouts
 							<div class="sb-sidenav-collapse-arrow">
 								<i class="fas fa-angle-down"></i>
-							</div></a>
+							</div>
+						</a>
 						<div class="collapse" id="collapseLayouts"
 							aria-labelledby="headingOne" data-parent="#sidenavAccordion">
 							<nav class="sb-sidenav-menu-nested nav">
 								<a class="nav-link" href="layout-static.html">Static
-									Navigation</a><a class="nav-link" href="layout-sidenav-light.html">Light
+									Navigation</a> <a class="nav-link" href="layout-sidenav-light.html">Light
 									Sidenav</a>
 							</nav>
 						</div>
 						<a class="nav-link collapsed" href="#" data-toggle="collapse"
 							data-target="#collapsePages" aria-expanded="false"
-							aria-controls="collapsePages"><div class="sb-nav-link-icon">
+							aria-controls="collapsePages">
+							<div class="sb-nav-link-icon">
 								<i class="fas fa-book-open"></i>
 							</div> Pages
 							<div class="sb-sidenav-collapse-arrow">
 								<i class="fas fa-angle-down"></i>
-							</div></a>
+							</div>
+						</a>
 						<div class="collapse" id="collapsePages"
 							aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
 							<nav class="sb-sidenav-menu-nested nav accordion"
 								id="sidenavAccordionPages">
 								<a class="nav-link collapsed" href="#" data-toggle="collapse"
 									data-target="#pagesCollapseAuth" aria-expanded="false"
-									aria-controls="pagesCollapseAuth">Authentication
+									aria-controls="pagesCollapseAuth"> Authentication
 									<div class="sb-sidenav-collapse-arrow">
 										<i class="fas fa-angle-down"></i>
 									</div>
@@ -105,14 +111,14 @@
 									aria-labelledby="headingOne"
 									data-parent="#sidenavAccordionPages">
 									<nav class="sb-sidenav-menu-nested nav">
-										<a class="nav-link" href="login.html">Login</a><a
-											class="nav-link" href="register.html">Register</a><a
+										<a class="nav-link" href="login.html">Login</a> <a
+											class="nav-link" href="register.html">Register</a> <a
 											class="nav-link" href="password.html">Forgot Password</a>
 									</nav>
 								</div>
 								<a class="nav-link collapsed" href="#" data-toggle="collapse"
 									data-target="#pagesCollapseError" aria-expanded="false"
-									aria-controls="pagesCollapseError">Error
+									aria-controls="pagesCollapseError"> Error
 									<div class="sb-sidenav-collapse-arrow">
 										<i class="fas fa-angle-down"></i>
 									</div>
@@ -121,21 +127,23 @@
 									aria-labelledby="headingOne"
 									data-parent="#sidenavAccordionPages">
 									<nav class="sb-sidenav-menu-nested nav">
-										<a class="nav-link" href="401.html">401 Page</a><a
-											class="nav-link" href="404.html">404 Page</a><a
+										<a class="nav-link" href="401.html">401 Page</a> <a
+											class="nav-link" href="404.html">404 Page</a> <a
 											class="nav-link" href="500.html">500 Page</a>
 									</nav>
 								</div>
 							</nav>
 						</div>
 						<div class="sb-sidenav-menu-heading">Addons</div>
-						<a class="nav-link" href="charts.html"><div
-								class="sb-nav-link-icon">
+						<a class="nav-link" href="charts.html">
+							<div class="sb-nav-link-icon">
 								<i class="fas fa-chart-area"></i>
-							</div> Charts</a><a class="nav-link" href="tables.html"><div
-								class="sb-nav-link-icon">
+							</div> Charts
+						</a> <a class="nav-link" href="tables.html">
+							<div class="sb-nav-link-icon">
 								<i class="fas fa-table"></i>
-							</div> Tables</a>
+							</div> Tables
+						</a>
 					</div>
 				</div>
 				<div class="sb-sidenav-footer">
@@ -150,45 +158,41 @@
 					<h1 class="mt-4" th:text="#{tareas.list.title}">Tables</h1>
 					<ol class="breadcrumb mb-4">
 						<li class="breadcrumb-item"><a href="index.html"> <span
-								th:text="#{tareas.dashboard}"> </span>
+								th:text="#{tareas.dashboard}"></span>
 						</a></li>
 						<li class="breadcrumb-item active"><span
-							th:text="#{tareas.link}"> </span></li>
+							th:text="#{tareas.link}"></span></li>
 					</ol>
-
 					<div class="card mb-4">
 						<div class="card-header bg-primary text-white">
 							<i class="fas fa-user-tie"></i> <span
-								th:text="#{tareas.card.title}"> </span> <span
-								class="float-right"> <a href="#"
-								class="btn btn-light btn-sm"> <span
+								th:text="#{tareas.card.title}"></span> <span class="float-right">
+								<a th:href="@{/tareas/form}" class="btn btn-light btn-sm"
+								data-toggle="modal" data-target="#myModal"> <span
 									th:text="#{tareas.btn.new}"></span>
 							</a>
 							</span>
 						</div>
-						<div class="card-body ">
+						<div class="card-body">
 							<div class="table-responsive">
 								<table class="table table-bordered table-striped table-hover"
-									id="dataTable" width="100%" cellspacing="0">
+									id="tablaTareas" width="100%" cellspacing="0">
 									<thead>
 										<tr style="background-color: navy; color: white;">
 											<th>#</th>
-											<th>Nro</th>
-											<th>Nombre</th>
-											<th>Estado</th>
-											<th>Fecha</th>
+											<th th:text="#{tareas.table.homework}"></th>
+											<th th:text="#{tareas.table.state}"></th>
+											<th th:text="#{tareas.table.date}"></th>
 											<th></th>
 										</tr>
 									</thead>
 									<tfoot>
 										<tr style="background-color: navy; color: white;">
 											<th>#</th>
-											<th>Nro</th>
-											<th>Nombre</th>
-											<th>Estado</th>
-											<th>Fecha</th>
 											<th></th>
-
+											<th></th>
+											<th></th>
+											<th></th>
 										</tr>
 									</tfoot>
 									<tbody>
@@ -196,13 +200,15 @@
 											<td th:text="${t.nro}"></td>
 											<td th:text="${t.nombre}"></td>
 											<td th:text="${t.estado}"></td>
-											<td th:text="${t.fecha}"></td>
-											<td th:text="${#temporals.format(t.fecha,'dd-MM-yyyy')}"></td>
+											
+											<td 
+												th:text="${#temporals.format(t.fecha,'dd-MM-yyyy')}"></td>
 											<td><a href="#" class="btn btn-sm btn-warning"> <span
 													th:text="#{tareas.btn.edit}"></span>
 											</a> <a href="#" class="btn btn-sm btn-danger"> <span
 													th:text="#{tareas.btn.delete}"></span>
 											</a></td>
+										</tr>
 									</tbody>
 								</table>
 							</div>
@@ -224,6 +230,56 @@
 			</footer>
 		</div>
 	</div>
+
+	<!-- The Modal -->
+	<div class="modal" id="myModal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<!-- Modal Header -->
+				<div class="modal-header">
+					<h4 class="modal-title" th:text="#{tareas.modal.title}"></h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body" th:text="#{tareas.modal.body}"></div>
+				<div class="container">
+					<div class="form-group row">
+						<label class="col-lg-3 col-form-label form-control-label"> Nueva Tarea 
+						</label>
+						<div class="col-lg-9">
+							<input class="form-control" type="text">
+						</div>
+					</div>
+
+					<div class="form-group row">
+						<label class="col-lg-3 col-form-label form-control-label">Estado
+							De Tarea</label>
+						<div class="col-lg-9">
+							<input class="form-control" type="text">
+						</div>
+					</div>
+
+					<div class="form-group row">
+						<label class="col-lg-3 col-form-label form-control-label">Fecha</label>
+						<div class="col-lg-9">
+							<input class="form-control" type="text">
+						</div>
+					</div>
+
+				</div>
+
+				<!-- Modal footer -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-success" data-dismiss="modal">Guardar</button>
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		crossorigin="anonymous"></script>
 	<script
@@ -237,5 +293,7 @@
 		src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"
 		crossorigin="anonymous"></script>
 	<script src="assets/demo/datatables-demo.js"></script>
+	<script th:src="@{/js/tareas.js}"></script>
+
 </body>
 </html>
